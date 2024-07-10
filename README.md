@@ -7,6 +7,9 @@ Este projeto contém uma coleção de exercícios interativos de JavaScript que 
 
 Este projeto consiste em três exercícios simples de JavaScript integrados em uma página web. Cada exercício possui uma interface amigável onde o usuário pode inserir valores e ver os resultados diretamente na página.
 
+![Imagem de Exibição](telaGit.png)
+
+
 ## Como Usar
 
 1. Abra o arquivo `index.html` no seu navegador preferido para interagir com os exercícios.
@@ -48,6 +51,6 @@ Informa o nome do mês correspondente ao número inserido.
 
 ## Autor
 
-Este projeto foi criado por [Vania Godoy].
+Este projeto foi criado por [Vania Godoy] https://github.com/VaniaGodoy/exercicioJS_Descodificadas.
 
 
