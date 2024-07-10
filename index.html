@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vania Godoy">
+    <title>Exercícios de JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Container exercicio1 -->
+    <div class="container">
+        <!-- Exercício 1 -->
+        <div class="exercise">
+            <h1>Média de Três Números</h1>
+            <label for="num1">Número 1:</label>
+            <input type="number" id="num1"><br><br>
+            <label for="num2">Número 2:</label>
+            <input type="number" id="num2"><br><br>
+            <label for="num3">Número 3:</label>
+            <input type="number" id="num3"><br><br>
+            <button onclick="calcularMedia()">Calcular Média</button>
+            <div class="result" id="mediaResult"></div>
+        </div>
+    </div>
+    
+    <!-- Container exercicio2 -->
+    <div class="container">
+        <!-- Exercício 2 -->
+        <div class="exercise">
+            <h1>Verificação de Idade</h1>
+            <label for="idade">Informe sua idade:</label>
+            <input type="number" id="idade"><br><br>
+            <button onclick="verificarIdade()">Verificar</button><br><br>
+        </div>
+    </div>
+    
+    <!-- Container exercicio3-->
+    <div class="container">
+        <!-- Exercício 3 -->
+        <div class="exercise">
+            <h1>Definição de Mês</h1>
+            <label for="mesNumero">Informe um número de 1 a 12:</label>
+            <input type="number" id="mesNumero"><br><br>
+            <button onclick="definirMes()">Mostrar Mês</button>
+            <div class="result" id="mesResult"></div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
